@@ -1,6 +1,6 @@
 package entity
 
-type Jockey struct {
+type Rating struct {
 	Id     int
 	Name   string
 }

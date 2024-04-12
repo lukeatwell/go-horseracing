@@ -1,6 +1,6 @@
 package entity
 
 type Track struct {
-	Id		int
-	Name	string
+	Id     int
+	Name   string
 }

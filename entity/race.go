@@ -1,11 +1,11 @@
 package entity
 
 type Race struct {
-	Num int
-	Length int
-	Class string
-	Rating string
-	Age string
-	Sex string
-	Horses []Horse
+	RaceNum   int
+	Length    int
+	Class     Class
+	Rating    Rating
+	Age       Age
+	Sex       Sex
+	Horses    map[string]*Horse
 }

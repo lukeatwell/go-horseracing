@@ -5,7 +5,7 @@ import (
 )
 
 type Meet struct {
-	Date  time.Time
-	Track Track
-	Races []Race
+	Date    time.Time
+	Track   Track
+	Races   map[int]*Race
 }
